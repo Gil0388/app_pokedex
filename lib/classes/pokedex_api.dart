@@ -26,8 +26,4 @@ class PokedexApi {
       return [];
     }
   }
-
-  Future<List<Pokemon>> fetchDelayed() async {
-    return Future.delayed(const Duration(seconds: 10), () => fetchPokedex());
-  }
 }
