@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Color blue = Colors.green;
+Color blue = Colors.blue;
 const Color white = Colors.white;
 const IconThemeData iconTheme = IconThemeData(color: white);
 const TextStyle titleTextStyle = TextStyle(fontSize: 20, color: white);
